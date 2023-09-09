@@ -1,21 +1,21 @@
 import { useState } from 'react'
 
 export function CounterBoard({ title = 'No Title', min = 0, max = 30, onChangePoints, points }) {
+  
   const [counter, setCounter] = useState(points)
 
   const handleAddPoint = () => {
     let newValue = counter + 1
     if (newValue > max) return
     setCounter(newValue)
-    onChangePoints()
+    onChangePoints(newValue)
   }
 
   const handleRemovePoint = () => {
     let newValue = counter - 1
     if (newValue < min) return
     setCounter(newValue)
-    onChangePoints()
-    
+    onChangePoints(newValue)
   }
 
   const drawPoints = () => {
