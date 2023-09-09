@@ -2,23 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#jugadoresContainer {
-    display: flex;
-      justify-content: center;
-  }
-
-.jugadorContainer {
-	width: 40vw;
-	min-height: 70vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-start;
-	background-color: rgb(234, 233, 213);
-	border-radius: 5px;
-	margin: 10px;
-}
-
 h2{
 	margin-top: 30px;
 	margin-bottom: 0px;
