@@ -40,7 +40,7 @@ export const Game = () => {
         })
         setShowModal(true)
         //confetti()
-      }, 500)
+      }, 300)
     }
   }
 
