@@ -65,6 +65,7 @@ export const Game = () => {
   }
   return (
     <section className="flex flex-col">
+      
       <div className="flex flex-row text-white gap-2">
         <CounterBoard
           title="Nosotros"

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.totalPageSize {
+	min-height: 100dvh;
+}
+
 h2{
 	margin-top: 30px;
 	margin-bottom: 0px;
