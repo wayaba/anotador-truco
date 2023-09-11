@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { getPoints, updatePoints } from '../services/points'
 import CounterBoard from './CounterBoard'
-//import confetti from 'canvas-confetti'
+import confetti from 'canvas-confetti'
 import { Modal } from './Modal'
 
 export const Game = () => {
@@ -33,13 +33,14 @@ export const Game = () => {
     setPoints(newPointsObject)
 
     if (value === 30) {
+      confetti()
       setTimeout(() => {
         setModalMessage({
           title: `${isWe ? 'Nosotros ganamos' : 'Ellos ganaron'} el partido 🙂`,
           subtitle: '¿Jugamos de nuevo?'
         })
         setShowModal(true)
-        //confetti()
+        
       }, 300)
     }
   }

@@ -51,7 +51,7 @@ export function CounterBoard({
 
   return (
     <section className="flex flex-col gap-2">
-      <span className="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300 text-center">
+      <span className="m-auto w-fit bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300 text-center">
         {title} ({points})
       </span>
       <div className="flex flex-col bg-gray-500 min-h-[75vh] sm:min-h-[55vh] rounded-lg">
