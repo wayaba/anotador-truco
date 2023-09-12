@@ -36,8 +36,8 @@ export const Game = () => {
       confetti()
       setTimeout(() => {
         setModalMessage({
-          title: `${isWe ? 'Nosotros ganamos' : 'Ellos ganaron'} el partido 🙂`,
-          subtitle: '¿Jugamos de nuevo?'
+          title: `${isWe ? 'Nosotros ganamos' : 'Ellos ganaron'} el partido`,
+          subtitle: '¿Jugamos de nuevo? 🙂'
         })
         setShowModal(true)
         
@@ -47,8 +47,8 @@ export const Game = () => {
 
   const openModalRestart = () => {
     setModalMessage({
-      title: `Reiniciar el juego.  🚨`,
-      subtitle: '¿Estás seguro?'
+      title: `Reiniciar el juego`,
+      subtitle: '¿Estás seguro? 🚨'
     })
     setShowModal(true)
   }
