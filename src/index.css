@@ -7,95 +7,50 @@
 	min-height: 100dvh;
 }
 
-h2{
-	margin-top: 30px;
-	margin-bottom: 0px;
-}
-
 img{
 	height: 70px;
 }
 
-.cuenta{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.grupo{
+.group{
 	position: relative;
 	height: 70px;
 	width: 70px;
 	margin: 10px;
 }
 
-.fosforo1{
+.point1{
 	position: absolute;
 	transform: rotate(90deg);
 	top:-30px;
 	left:32px;
 }
 
-.fosforo2{
+.point2{
 	position: absolute;
 	transform: rotate(180deg);
 	left:  65px;
 	top: 0px;
 }
 
-.fosforo3{
+.point3{
 	position: absolute;
 	transform: rotate(270deg);
 	top: 32px;
 	left:32px;
 }
 
-.fosforo4{
+.point4{
 	position: absolute;
 	left: 0px;
 	top: 0px;
 }
 
-.fosforo5{
+.point5{
 	position: absolute;
 	transform: rotate(45deg);
 	left:34px;
 	top:0px;
 }
-
-.botonesJugador{
-	position:fixed;
-	margin-top: auto;
-	top:50px;
-}
-
-button{
-	min-width: 60px;
-	padding: 0 10px;
-	font-size: xx-large;
-	margin: 20px 0;
-	border-radius: 5px;
-	background-color: rgb(200, 197, 193);
-}
-
-dialog{
-	font-size: larger;
-}
-
-.separador{
-	border-top: 2px solid black;
-	width: 32px;;
-	margin: 10px;
-}
-
-@media (min-width: 450px) { 
-	.separador{
-		height: 32px;
-		width: unset;
-		border-top: unset;
-		border-left: 2px solid black;
-	}
- }
 
  .mirrored-image {
         transform: scaleX(-1);
